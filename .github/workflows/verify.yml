@@ -1,11 +1,11 @@
 name: BAGLEY-Bench-50 Verification
-
 on:
   push:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 jobs:
   verify-benchmark:
     runs-on: ubuntu-latest
@@ -17,5 +17,5 @@ jobs:
           python-version: "3.12"
       - name: Verify Oracle Harness (50/50 BEFORE->AFTER)
         run: python run_benchmark_50.py
-      - name: Verify Live gpt-oss-20B Report & SHA-256 Hashes
+      - name: Verify All 50 Patch Artifacts & SHA-256 Hashes
         run: python verify_report_integrity.py
