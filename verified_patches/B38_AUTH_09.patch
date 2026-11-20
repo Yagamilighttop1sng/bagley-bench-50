@@ -1,0 +1,10 @@
+diff --git a/a9.py b/a9.py
+index 9054b43..9d1c4e1 100644
+--- a/a9.py
++++ b/a9.py
+@@ -1,2 +1,4 @@
++import hmac
++
+ def chk_9(a: str, b: str) -> bool:
+-    return a == b
++    return hmac.compare_digest(a, b)

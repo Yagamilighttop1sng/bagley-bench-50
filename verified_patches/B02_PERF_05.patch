@@ -1,0 +1,27 @@
+diff --git a/p5.py b/p5.py
+index 352dd5f..975f578 100644
+--- a/p5.py
++++ b/p5.py
+@@ -1,6 +1,17 @@
+ class S:
+- def __init__(self): self.q=0;self.d={1:'a',2:'b'}
+- def one(self,i): self.q+=1;return self.d.get(i)
+- def many(self,ids): self.q+=1;return [self.d.get(i) for i in ids]
+-def load_5(s,ids):
+-    return [s.one(i) for i in ids]
++    def __init__(self):
++        self.q = 0
++        self.d = {1: 'a', 2: 'b'}
++
++    def one(self, i):
++        self.q += 1
++        return self.d.get(i)
++
++    def many(self, ids):
++        self.q += 1
++        return [self.d.get(i) for i in ids]
++
++
++def load_5(s, ids):
++    """Load values for the given ids using a single call to s.many."""
++    return s.many(ids) if ids else []

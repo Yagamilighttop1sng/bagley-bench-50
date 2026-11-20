@@ -1,0 +1,20 @@
+diff --git a/c7.py b/c7.py
+index 6c7e2b9..cf03c73 100644
+--- a/c7.py
++++ b/c7.py
+@@ -1,4 +1,13 @@
+ import time
++import threading
++
+ class C_7:
+- def __init__(self): self.n=0
+- def inc(self): v=self.n;time.sleep(0.0003);self.n=v+1
++    def __init__(self):
++        self.n = 0
++        self.lock = threading.Lock()
++
++    def inc(self):
++        with self.lock:
++            v = self.n
++            time.sleep(0.0003)
++            self.n = v + 1

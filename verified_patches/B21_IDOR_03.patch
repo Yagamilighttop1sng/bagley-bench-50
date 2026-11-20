@@ -1,0 +1,19 @@
+diff --git a/d3.py b/d3.py
+index 07e834c..f343995 100644
+--- a/d3.py
++++ b/d3.py
+@@ -1,3 +1,11 @@
+-DB={1:{'owner':'a','v':'1'},2:{'owner':'b','v':'2'}}
+-def get_3(i:int,u:str)->dict:
+-    return DB[i]
++DB = {1: {'owner': 'a', 'v': '1'}, 2: {'owner': 'b', 'v': '2'}}
++
++def get_3(i: int, u: str) -> dict:
++    """
++    Retrieve a record from the database only if the requesting user is the owner.
++    Raises PermissionError if the user does not own the record.
++    """
++    rec = DB[i]  # May raise KeyError if i is not present
++    if rec['owner'] != u:
++        raise PermissionError("Access denied")
++    return rec

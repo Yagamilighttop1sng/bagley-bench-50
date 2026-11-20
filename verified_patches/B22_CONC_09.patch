@@ -1,0 +1,20 @@
+diff --git a/c9.py b/c9.py
+index 39bf89d..a14eaa8 100644
+--- a/c9.py
++++ b/c9.py
+@@ -1,4 +1,13 @@
+ import time
++import threading
++
+ class C_9:
+- def __init__(self): self.n=0
+- def inc(self): v=self.n;time.sleep(0.0003);self.n=v+1
++    def __init__(self):
++        self.n = 0
++        self._lock = threading.Lock()
++
++    def inc(self):
++        with self._lock:
++            v = self.n
++            time.sleep(0.0003)
++            self.n = v + 1

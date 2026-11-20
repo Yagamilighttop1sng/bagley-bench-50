@@ -1,0 +1,10 @@
+diff --git a/a2.py b/a2.py
+index 5134c55..ee13dee 100644
+--- a/a2.py
++++ b/a2.py
+@@ -1,2 +1,4 @@
++import hmac
++
+ def chk_2(a: str, b: str) -> bool:
+-    return a == b
++    return hmac.compare_digest(a, b)

@@ -1,0 +1,27 @@
+diff --git a/p9.py b/p9.py
+index 3b30a60..f92722a 100644
+--- a/p9.py
++++ b/p9.py
+@@ -1,6 +1,17 @@
+ class S:
+- def __init__(self): self.q=0;self.d={1:'a',2:'b'}
+- def one(self,i): self.q+=1;return self.d.get(i)
+- def many(self,ids): self.q+=1;return [self.d.get(i) for i in ids]
+-def load_9(s,ids):
+-    return [s.one(i) for i in ids]
++    def __init__(self):
++        self.q = 0
++        self.d = {1: 'a', 2: 'b'}
++
++    def one(self, i):
++        self.q += 1
++        return self.d.get(i)
++
++    def many(self, ids):
++        self.q += 1
++        return [self.d.get(i) for i in ids]
++
++def load_9(s, ids):
++    if not ids:
++        return []
++    return s.many(ids)

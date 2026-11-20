@@ -1,0 +1,28 @@
+diff --git a/p3.py b/p3.py
+index 68c2900..cb31299 100644
+--- a/p3.py
++++ b/p3.py
+@@ -1,6 +1,18 @@
+ class S:
+- def __init__(self): self.q=0;self.d={1:'a',2:'b'}
+- def one(self,i): self.q+=1;return self.d.get(i)
+- def many(self,ids): self.q+=1;return [self.d.get(i) for i in ids]
+-def load_3(s,ids):
+-    return [s.one(i) for i in ids]
++    def __init__(self):
++        self.q = 0
++        self.d = {1: 'a', 2: 'b'}
++
++    def one(self, i):
++        self.q += 1
++        return self.d.get(i)
++
++    def many(self, ids):
++        self.q += 1
++        return [self.d.get(i) for i in ids]
++
++
++def load_3(s, ids):
++    if not ids:
++        return []
++    return s.many(ids)

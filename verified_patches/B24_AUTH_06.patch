@@ -1,0 +1,25 @@
+diff --git a/a6.py b/a6.py
+index a44f119..9d23fee 100644
+--- a/a6.py
++++ b/a6.py
+@@ -1,2 +1,19 @@
++import hmac
++
+ def chk_6(a: str, b: str) -> bool:
+-    return a == b
++    """
++    Compare two strings in a timing‑attack resistant way.
++
++    Parameters
++    ----------
++    a : str
++        First string to compare.
++    b : str
++        Second string to compare.
++
++    Returns
++    -------
++    bool
++        True if the strings are equal, False otherwise.
++    """
++    return hmac.compare_digest(a, b)

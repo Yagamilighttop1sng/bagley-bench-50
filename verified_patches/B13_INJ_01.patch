@@ -1,0 +1,16 @@
+diff --git a/i1.py b/i1.py
+index 7fa4156..2580aa6 100644
+--- a/i1.py
++++ b/i1.py
+@@ -1,3 +1,10 @@
+ import subprocess
++import sys
++
+ def run_1(t: str) -> str:
+-    return subprocess.run(f'echo {t}',shell=True,capture_output=True,text=True).stdout.strip()
++    """Run a command safely without shell injection."""
++    return subprocess.run(
++        [sys.executable, '-c', 'import sys;print(sys.argv[1])', t],
++        capture_output=True,
++        text=True
++    ).stdout.strip()

@@ -1,0 +1,11 @@
+diff --git a/a3.py b/a3.py
+index 6e5a77c..e7095e2 100644
+--- a/a3.py
++++ b/a3.py
+@@ -1,2 +1,5 @@
++import hmac
++
+ def chk_3(a: str, b: str) -> bool:
+-    return a == b
++    """Securely compare two strings to prevent timing attacks."""
++    return hmac.compare_digest(a, b)

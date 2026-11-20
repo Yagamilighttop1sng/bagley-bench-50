@@ -1,0 +1,20 @@
+diff --git a/c8.py b/c8.py
+index 4d36929..c61787b 100644
+--- a/c8.py
++++ b/c8.py
+@@ -1,4 +1,13 @@
+ import time
++import threading
++
+ class C_8:
+- def __init__(self): self.n=0
+- def inc(self): v=self.n;time.sleep(0.0003);self.n=v+1
++    def __init__(self):
++        self.n = 0
++        self._lock = threading.Lock()
++
++    def inc(self):
++        with self._lock:
++            v = self.n
++            time.sleep(0.0003)  # Simulate a delay that could cause a race
++            self.n = v + 1

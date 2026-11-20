@@ -1,0 +1,38 @@
+diff --git a/d8.py b/d8.py
+index 25e7416..59049db 100644
+--- a/d8.py
++++ b/d8.py
+@@ -1,3 +1,30 @@
+-DB={1:{'owner':'a','v':'1'},2:{'owner':'b','v':'2'}}
+-def get_8(i:int,u:str)->dict:
+-    return DB[i]
++DB = {1: {'owner': 'a', 'v': '1'}, 2: {'owner': 'b', 'v': '2'}}
++
++def get_8(i: int, u: str) -> dict:
++    """
++    Retrieve a record from the database by its ID, ensuring that the
++    requesting user is the owner of the record.
++
++    Parameters
++    ----------
++    i : int
++        The record ID to fetch.
++    u : str
++        The username of the requester.
++
++    Returns
++    -------
++    dict
++        The requested record.
++
++    Raises
++    ------
++    KeyError
++        If the record ID does not exist in the database.
++    PermissionError
++        If the requester is not the owner of the record.
++    """
++    rec = DB[i]  # May raise KeyError if i is not present
++    if rec['owner'] != u:
++        raise PermissionError(f"User '{u}' is not authorized to access record {i}")
++    return rec

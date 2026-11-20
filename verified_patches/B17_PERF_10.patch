@@ -1,0 +1,26 @@
+diff --git a/p10.py b/p10.py
+index 8308523..6c5ee37 100644
+--- a/p10.py
++++ b/p10.py
+@@ -1,6 +1,16 @@
+ class S:
+- def __init__(self): self.q=0;self.d={1:'a',2:'b'}
+- def one(self,i): self.q+=1;return self.d.get(i)
+- def many(self,ids): self.q+=1;return [self.d.get(i) for i in ids]
+-def load_10(s,ids):
+-    return [s.one(i) for i in ids]
++    def __init__(self):
++        self.q = 0
++        self.d = {1: 'a', 2: 'b'}
++
++    def one(self, i):
++        self.q += 1
++        return self.d.get(i)
++
++    def many(self, ids):
++        self.q += 1
++        return [self.d.get(i) for i in ids]
++
++
++def load_10(s, ids):
++    return s.many(ids) if ids else []

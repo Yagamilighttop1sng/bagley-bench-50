@@ -1,0 +1,30 @@
+diff --git a/d7.py b/d7.py
+index 295bb5c..4d87852 100644
+--- a/d7.py
++++ b/d7.py
+@@ -1,3 +1,22 @@
+-DB={1:{'owner':'a','v':'1'},2:{'owner':'b','v':'2'}}
+-def get_7(i:int,u:str)->dict:
+-    return DB[i]
++DB = {1: {'owner': 'a', 'v': '1'}, 2: {'owner': 'b', 'v': '2'}}
++
++def get_7(i: int, u: str) -> dict:
++    """
++    Retrieve a record from the database by its ID, ensuring that the
++    requesting user is the owner of the record.
++
++    Parameters:
++    - i: The record ID.
++    - u: The username of the requester.
++
++    Returns:
++    - The record dictionary if the user is authorized.
++
++    Raises:
++    - PermissionError: If the user is not the owner of the record.
++    - KeyError: If the record ID does not exist in the database.
++    """
++    rec = DB[i]  # May raise KeyError if i is invalid
++    if rec['owner'] != u:
++        raise PermissionError(f"User '{u}' is not authorized to access record {i}")
++    return rec
