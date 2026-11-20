@@ -1,0 +1,38 @@
+{
+  "pass_at_1": 3,
+  "pass_at_3": 4,
+  "total": 5,
+  "elapsed_sec": 74.73,
+  "results": [
+    {
+      "id": "LIVE_01_CRYPTO_HMAC",
+      "status": "FAIL",
+      "attempt": 0,
+      "error": "n 'def verify_sig(a: str, b: str) -> bool:\\n    return constant_time_compare(a, b)\\n'\n\n----------------------------------------------------------------------\nRan 1 test in 0.002s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "id": "LIVE_02_CMD_INJECTION",
+      "status": "PASS",
+      "attempt": 1,
+      "sha256": "1331b7df10d8d091"
+    },
+    {
+      "id": "LIVE_03_IDOR_ACL",
+      "status": "PASS",
+      "attempt": 1,
+      "sha256": "59891f764b2764bc"
+    },
+    {
+      "id": "LIVE_04_N_PLUS_ONE",
+      "status": "PASS",
+      "attempt": 1,
+      "sha256": "f94105a3659d52d1"
+    },
+    {
+      "id": "LIVE_05_THREAD_RACE",
+      "status": "PASS",
+      "attempt": 2,
+      "sha256": "39d98d4bf54efad9"
+    }
+  ]
+}

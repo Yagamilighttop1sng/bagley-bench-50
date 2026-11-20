@@ -1,0 +1,414 @@
+{
+  "model": "gpt-oss-20b-MXFP4",
+  "done": 50,
+  "pass1": "50/50 (100.0%)",
+  "pass3": "50/50 (100.0%)",
+  "sec": 1680.1,
+  "gpu": [
+    "NVIDIA GeForce GTX 1050",
+    1,
+    0
+  ],
+  "results": [
+    {
+      "id": "B01_IDOR_08",
+      "cat": "Access Control / IDOR",
+      "ok": true,
+      "att": 1,
+      "sec": 44.0,
+      "sha": "78e35a1b9e3c"
+    },
+    {
+      "id": "B02_PERF_05",
+      "cat": "Performance & N+1",
+      "ok": true,
+      "att": 1,
+      "sec": 29.1,
+      "sha": "b151fd98c5c2"
+    },
+    {
+      "id": "B03_CONC_06",
+      "cat": "Concurrency & SRE",
+      "ok": true,
+      "att": 1,
+      "sec": 52.9,
+      "sha": "30b8f1491dff"
+    },
+    {
+      "id": "B04_CONC_05",
+      "cat": "Concurrency & SRE",
+      "ok": true,
+      "att": 1,
+      "sec": 30.0,
+      "sha": "4caa8f8998dc"
+    },
+    {
+      "id": "B05_IDOR_05",
+      "cat": "Access Control / IDOR",
+      "ok": true,
+      "att": 1,
+      "sec": 29.7,
+      "sha": "82ac304a80f2"
+    },
+    {
+      "id": "B06_PERF_03",
+      "cat": "Performance & N+1",
+      "ok": true,
+      "att": 1,
+      "sec": 52.0,
+      "sha": "77532c814362"
+    },
+    {
+      "id": "B07_INJ_04",
+      "cat": "Injection & Input",
+      "ok": true,
+      "att": 1,
+      "sec": 40.5,
+      "sha": "68bd5d5225f1"
+    },
+    {
+      "id": "B08_IDOR_09",
+      "cat": "Access Control / IDOR",
+      "ok": true,
+      "att": 1,
+      "sec": 36.1,
+      "sha": "57e2a448a3c6"
+    },
+    {
+      "id": "B09_AUTH_07",
+      "cat": "Auth & Crypto",
+      "ok": true,
+      "att": 1,
+      "sec": 25.5,
+      "sha": "186bb68c815b"
+    },
+    {
+      "id": "B10_CONC_01",
+      "cat": "Concurrency & SRE",
+      "ok": true,
+      "att": 1,
+      "sec": 33.2,
+      "sha": "418e58f713f8"
+    },
+    {
+      "id": "B11_IDOR_06",
+      "cat": "Access Control / IDOR",
+      "ok": true,
+      "att": 1,
+      "sec": 38.5,
+      "sha": "77dcc40c9edf"
+    },
+    {
+      "id": "B12_CONC_04",
+      "cat": "Concurrency & SRE",
+      "ok": true,
+      "att": 1,
+      "sec": 43.7,
+      "sha": "5ce8a132a79d"
+    },
+    {
+      "id": "B13_INJ_01",
+      "cat": "Injection & Input",
+      "ok": true,
+      "att": 1,
+      "sec": 35.9,
+      "sha": "172f16db529f"
+    },
+    {
+      "id": "B14_INJ_10",
+      "cat": "Injection & Input",
+      "ok": true,
+      "att": 1,
+      "sec": 31.8,
+      "sha": "ebd56fd78b47"
+    },
+    {
+      "id": "B15_IDOR_04",
+      "cat": "Access Control / IDOR",
+      "ok": true,
+      "att": 1,
+      "sec": 37.9,
+      "sha": "9447d0041379"
+    },
+    {
+      "id": "B16_IDOR_01",
+      "cat": "Access Control / IDOR",
+      "ok": true,
+      "att": 1,
+      "sec": 28.6,
+      "sha": "da7acb79ade4"
+    },
+    {
+      "id": "B17_PERF_10",
+      "cat": "Performance & N+1",
+      "ok": true,
+      "att": 1,
+      "sec": 54.0,
+      "sha": "b4343d47f3ca"
+    },
+    {
+      "id": "B18_PERF_04",
+      "cat": "Performance & N+1",
+      "ok": true,
+      "att": 1,
+      "sec": 32.4,
+      "sha": "8f7ad9633338"
+    },
+    {
+      "id": "B19_INJ_03",
+      "cat": "Injection & Input",
+      "ok": true,
+      "att": 1,
+      "sec": 41.8,
+      "sha": "934086d8d37e"
+    },
+    {
+      "id": "B20_PERF_02",
+      "cat": "Performance & N+1",
+      "ok": true,
+      "att": 1,
+      "sec": 35.1,
+      "sha": "b8c745d42602"
+    },
+    {
+      "id": "B21_IDOR_03",
+      "cat": "Access Control / IDOR",
+      "ok": true,
+      "att": 1,
+      "sec": 29.7,
+      "sha": "76bb909a80a1"
+    },
+    {
+      "id": "B22_CONC_09",
+      "cat": "Concurrency & SRE",
+      "ok": true,
+      "att": 1,
+      "sec": 22.2,
+      "sha": "9ce5e1503c23"
+    },
+    {
+      "id": "B23_AUTH_03",
+      "cat": "Auth & Crypto",
+      "ok": true,
+      "att": 1,
+      "sec": 18.3,
+      "sha": "388436159672"
+    },
+    {
+      "id": "B24_AUTH_06",
+      "cat": "Auth & Crypto",
+      "ok": true,
+      "att": 1,
+      "sec": 19.7,
+      "sha": "47e8148d0f89"
+    },
+    {
+      "id": "B25_CONC_07",
+      "cat": "Concurrency & SRE",
+      "ok": true,
+      "att": 1,
+      "sec": 44.2,
+      "sha": "163fe2da6aa0"
+    },
+    {
+      "id": "B26_INJ_05",
+      "cat": "Injection & Input",
+      "ok": true,
+      "att": 1,
+      "sec": 32.6,
+      "sha": "485f9fd73fd2"
+    },
+    {
+      "id": "B27_PERF_07",
+      "cat": "Performance & N+1",
+      "ok": true,
+      "att": 1,
+      "sec": 34.9,
+      "sha": "228a1ac0c69c"
+    },
+    {
+      "id": "B28_PERF_09",
+      "cat": "Performance & N+1",
+      "ok": true,
+      "att": 1,
+      "sec": 52.4,
+      "sha": "5d0ea48bb058"
+    },
+    {
+      "id": "B29_PERF_01",
+      "cat": "Performance & N+1",
+      "ok": true,
+      "att": 1,
+      "sec": 48.3,
+      "sha": "036fe4b13d09"
+    },
+    {
+      "id": "B30_AUTH_10",
+      "cat": "Auth & Crypto",
+      "ok": true,
+      "att": 1,
+      "sec": 20.6,
+      "sha": "7e1a11148ce3"
+    },
+    {
+      "id": "B31_CONC_02",
+      "cat": "Concurrency & SRE",
+      "ok": true,
+      "att": 1,
+      "sec": 37.9,
+      "sha": "cb5e7015d211"
+    },
+    {
+      "id": "B32_CONC_10",
+      "cat": "Concurrency & SRE",
+      "ok": true,
+      "att": 1,
+      "sec": 39.7,
+      "sha": "bbe786cb183b"
+    },
+    {
+      "id": "B33_AUTH_02",
+      "cat": "Auth & Crypto",
+      "ok": true,
+      "att": 1,
+      "sec": 25.5,
+      "sha": "2fe257b013fc"
+    },
+    {
+      "id": "B34_AUTH_01",
+      "cat": "Auth & Crypto",
+      "ok": true,
+      "att": 1,
+      "sec": 29.7,
+      "sha": "c25a1c958b45"
+    },
+    {
+      "id": "B35_AUTH_04",
+      "cat": "Auth & Crypto",
+      "ok": true,
+      "att": 1,
+      "sec": 23.3,
+      "sha": "c6897dd909a4"
+    },
+    {
+      "id": "B36_PERF_06",
+      "cat": "Performance & N+1",
+      "ok": true,
+      "att": 1,
+      "sec": 35.4,
+      "sha": "7d1c398294d7"
+    },
+    {
+      "id": "B37_INJ_07",
+      "cat": "Injection & Input",
+      "ok": true,
+      "att": 1,
+      "sec": 34.5,
+      "sha": "0632664b9b7f"
+    },
+    {
+      "id": "B38_AUTH_09",
+      "cat": "Auth & Crypto",
+      "ok": true,
+      "att": 1,
+      "sec": 17.8,
+      "sha": "f89de5c01aee"
+    },
+    {
+      "id": "B39_INJ_08",
+      "cat": "Injection & Input",
+      "ok": true,
+      "att": 1,
+      "sec": 29.9,
+      "sha": "031c70c52028"
+    },
+    {
+      "id": "B40_INJ_06",
+      "cat": "Injection & Input",
+      "ok": true,
+      "att": 1,
+      "sec": 33.8,
+      "sha": "710d90f8a41b"
+    },
+    {
+      "id": "B41_AUTH_08",
+      "cat": "Auth & Crypto",
+      "ok": true,
+      "att": 1,
+      "sec": 29.6,
+      "sha": "1da7e37ba6c7"
+    },
+    {
+      "id": "B42_CONC_08",
+      "cat": "Concurrency & SRE",
+      "ok": true,
+      "att": 1,
+      "sec": 32.4,
+      "sha": "7995d0961b64"
+    },
+    {
+      "id": "B43_PERF_08",
+      "cat": "Performance & N+1",
+      "ok": true,
+      "att": 1,
+      "sec": 30.9,
+      "sha": "8724ee0479ea"
+    },
+    {
+      "id": "B44_CONC_03",
+      "cat": "Concurrency & SRE",
+      "ok": true,
+      "att": 1,
+      "sec": 25.2,
+      "sha": "d239679e27d2"
+    },
+    {
+      "id": "B45_INJ_02",
+      "cat": "Injection & Input",
+      "ok": true,
+      "att": 1,
+      "sec": 27.9,
+      "sha": "54254853e041"
+    },
+    {
+      "id": "B46_INJ_09",
+      "cat": "Injection & Input",
+      "ok": true,
+      "att": 1,
+      "sec": 31.0,
+      "sha": "b16604fedd0e"
+    },
+    {
+      "id": "B47_IDOR_10",
+      "cat": "Access Control / IDOR",
+      "ok": true,
+      "att": 1,
+      "sec": 37.4,
+      "sha": "605246b8e1ac"
+    },
+    {
+      "id": "B48_IDOR_07",
+      "cat": "Access Control / IDOR",
+      "ok": true,
+      "att": 1,
+      "sec": 31.9,
+      "sha": "d423ca8ef7da"
+    },
+    {
+      "id": "B49_AUTH_05",
+      "cat": "Auth & Crypto",
+      "ok": true,
+      "att": 1,
+      "sec": 22.2,
+      "sha": "df1a507f9107"
+    },
+    {
+      "id": "B50_IDOR_02",
+      "cat": "Access Control / IDOR",
+      "ok": true,
+      "att": 1,
+      "sec": 28.0,
+      "sha": "b3b558ce2e4b"
+    }
+  ]
+}

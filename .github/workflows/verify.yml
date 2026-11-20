@@ -1,0 +1,21 @@
+name: BAGLEY-Bench-50 Verification
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  verify-benchmark:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify Oracle Harness (50/50 BEFORE->AFTER)
+        run: python run_benchmark_50.py
+      - name: Verify Live gpt-oss-20B Report & SHA-256 Hashes
+        run: python verify_report_integrity.py

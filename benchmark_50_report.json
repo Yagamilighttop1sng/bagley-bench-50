@@ -1,0 +1,359 @@
+{
+  "benchmark": "BAGLEY-Bench-50",
+  "total": 50,
+  "passed": 50,
+  "pass_rate": "100.0%",
+  "elapsed_sec": 63.76,
+  "results": [
+    {
+      "id": "CASE_01_HMAC_TIMING_V01",
+      "category": "Auth & Crypto",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "12d5628f9b208f30"
+    },
+    {
+      "id": "CASE_02_HMAC_TIMING_V02",
+      "category": "Auth & Crypto",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "269925f1e0788414"
+    },
+    {
+      "id": "CASE_03_HMAC_TIMING_V03",
+      "category": "Auth & Crypto",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "275abb3628ee4d7c"
+    },
+    {
+      "id": "CASE_04_HMAC_TIMING_V04",
+      "category": "Auth & Crypto",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "c4b0fdadba8a1a4f"
+    },
+    {
+      "id": "CASE_05_HMAC_TIMING_V05",
+      "category": "Auth & Crypto",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "ec5fb21b1467326b"
+    },
+    {
+      "id": "CASE_06_HMAC_TIMING_V06",
+      "category": "Auth & Crypto",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "b632e45d05ecd025"
+    },
+    {
+      "id": "CASE_07_HMAC_TIMING_V07",
+      "category": "Auth & Crypto",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "6f4a2f032b3af0a1"
+    },
+    {
+      "id": "CASE_08_HMAC_TIMING_V08",
+      "category": "Auth & Crypto",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "199fbb8e0c2eb113"
+    },
+    {
+      "id": "CASE_09_HMAC_TIMING_V09",
+      "category": "Auth & Crypto",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "a3d904ffd1e84210"
+    },
+    {
+      "id": "CASE_10_HMAC_TIMING_V10",
+      "category": "Auth & Crypto",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "ec99480f26df5809"
+    },
+    {
+      "id": "CASE_11_NO_SHELL_EXEC_V01",
+      "category": "Injection & Input",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "6c067ec8bd2262fd"
+    },
+    {
+      "id": "CASE_12_NO_SHELL_EXEC_V02",
+      "category": "Injection & Input",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "ed7522afa16d9cf6"
+    },
+    {
+      "id": "CASE_13_NO_SHELL_EXEC_V03",
+      "category": "Injection & Input",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "39325229c7a18ef2"
+    },
+    {
+      "id": "CASE_14_NO_SHELL_EXEC_V04",
+      "category": "Injection & Input",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "415f0e601a4bc499"
+    },
+    {
+      "id": "CASE_15_NO_SHELL_EXEC_V05",
+      "category": "Injection & Input",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "c908d6753e6d7838"
+    },
+    {
+      "id": "CASE_16_NO_SHELL_EXEC_V06",
+      "category": "Injection & Input",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "244761104ee92283"
+    },
+    {
+      "id": "CASE_17_NO_SHELL_EXEC_V07",
+      "category": "Injection & Input",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "642cd0cfaff89c30"
+    },
+    {
+      "id": "CASE_18_NO_SHELL_EXEC_V08",
+      "category": "Injection & Input",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "6d42044b45595e4e"
+    },
+    {
+      "id": "CASE_19_NO_SHELL_EXEC_V09",
+      "category": "Injection & Input",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "726de136a9f43129"
+    },
+    {
+      "id": "CASE_20_NO_SHELL_EXEC_V10",
+      "category": "Injection & Input",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "f5070c2a5eca8f6a"
+    },
+    {
+      "id": "CASE_21_OWNER_ACL_V01",
+      "category": "Access Control / IDOR",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "e54070005da6319c"
+    },
+    {
+      "id": "CASE_22_OWNER_ACL_V02",
+      "category": "Access Control / IDOR",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "1a0f60f7a2aef652"
+    },
+    {
+      "id": "CASE_23_OWNER_ACL_V03",
+      "category": "Access Control / IDOR",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "350fd175aab5f605"
+    },
+    {
+      "id": "CASE_24_OWNER_ACL_V04",
+      "category": "Access Control / IDOR",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "059a648f79216d12"
+    },
+    {
+      "id": "CASE_25_OWNER_ACL_V05",
+      "category": "Access Control / IDOR",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "d08e7a4ca53eeb62"
+    },
+    {
+      "id": "CASE_26_OWNER_ACL_V06",
+      "category": "Access Control / IDOR",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "bd27479456f4c253"
+    },
+    {
+      "id": "CASE_27_OWNER_ACL_V07",
+      "category": "Access Control / IDOR",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "a7b1907b5dab62e2"
+    },
+    {
+      "id": "CASE_28_OWNER_ACL_V08",
+      "category": "Access Control / IDOR",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "e5cf1e8bf4164129"
+    },
+    {
+      "id": "CASE_29_OWNER_ACL_V09",
+      "category": "Access Control / IDOR",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "0203a9a581f60422"
+    },
+    {
+      "id": "CASE_30_OWNER_ACL_V10",
+      "category": "Access Control / IDOR",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "09a3f395830c64d6"
+    },
+    {
+      "id": "CASE_31_BATCH_LOADER_V01",
+      "category": "Performance & N+1",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "0b97a32719b637c6"
+    },
+    {
+      "id": "CASE_32_BATCH_LOADER_V02",
+      "category": "Performance & N+1",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "5d38ddff6850d272"
+    },
+    {
+      "id": "CASE_33_BATCH_LOADER_V03",
+      "category": "Performance & N+1",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "71e3f13f6fadc39b"
+    },
+    {
+      "id": "CASE_34_BATCH_LOADER_V04",
+      "category": "Performance & N+1",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "752863a66222b367"
+    },
+    {
+      "id": "CASE_35_BATCH_LOADER_V05",
+      "category": "Performance & N+1",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "10c0986c726bb9c0"
+    },
+    {
+      "id": "CASE_36_BATCH_LOADER_V06",
+      "category": "Performance & N+1",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "b65d97b8b9d42dc2"
+    },
+    {
+      "id": "CASE_37_BATCH_LOADER_V07",
+      "category": "Performance & N+1",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "5747b2fead2ae9e6"
+    },
+    {
+      "id": "CASE_38_BATCH_LOADER_V08",
+      "category": "Performance & N+1",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "9922631f965bcad3"
+    },
+    {
+      "id": "CASE_39_BATCH_LOADER_V09",
+      "category": "Performance & N+1",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "d7d04f146de07684"
+    },
+    {
+      "id": "CASE_40_BATCH_LOADER_V10",
+      "category": "Performance & N+1",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "4ca060e5a42fdf08"
+    },
+    {
+      "id": "CASE_41_MUTEX_STATE_V01",
+      "category": "Concurrency & SRE",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "6c29097c0e72f270"
+    },
+    {
+      "id": "CASE_42_MUTEX_STATE_V02",
+      "category": "Concurrency & SRE",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "6623daf0f58e6528"
+    },
+    {
+      "id": "CASE_43_MUTEX_STATE_V03",
+      "category": "Concurrency & SRE",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "998faad36026fdbf"
+    },
+    {
+      "id": "CASE_44_MUTEX_STATE_V04",
+      "category": "Concurrency & SRE",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "678ac993fdd5b4b4"
+    },
+    {
+      "id": "CASE_45_MUTEX_STATE_V05",
+      "category": "Concurrency & SRE",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "8382ea72c7c4953a"
+    },
+    {
+      "id": "CASE_46_MUTEX_STATE_V06",
+      "category": "Concurrency & SRE",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "43148edb4b8f92e5"
+    },
+    {
+      "id": "CASE_47_MUTEX_STATE_V07",
+      "category": "Concurrency & SRE",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "b31b35d83d6cddcb"
+    },
+    {
+      "id": "CASE_48_MUTEX_STATE_V08",
+      "category": "Concurrency & SRE",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "b6199ed456945820"
+    },
+    {
+      "id": "CASE_49_MUTEX_STATE_V09",
+      "category": "Concurrency & SRE",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "f5e28def4e9eb428"
+    },
+    {
+      "id": "CASE_50_MUTEX_STATE_V10",
+      "category": "Concurrency & SRE",
+      "status": "PASS",
+      "fail_to_pass": true,
+      "patch_sha256": "eacd81dedba0a73d"
+    }
+  ]
+}

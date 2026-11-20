@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "elapsed_sec": 6.15,
+  "results": [
+    {
+      "id": "CASE_01_HMAC_TIMING",
+      "category": "Auth & Crypto",
+      "status": "PASS"
+    },
+    {
+      "id": "CASE_11_CMD_INJECTION",
+      "category": "Injection & Input",
+      "status": "PASS"
+    },
+    {
+      "id": "CASE_21_IDOR_GUARD",
+      "category": "Access Control / IDOR",
+      "status": "PASS"
+    },
+    {
+      "id": "CASE_31_N_PLUS_ONE",
+      "category": "Performance & N+1",
+      "status": "PASS"
+    },
+    {
+      "id": "CASE_41_THREAD_RACE",
+      "category": "Concurrency & SRE",
+      "status": "PASS"
+    }
+  ]
+}
